@@ -3,7 +3,7 @@ Based on the busybox:ubuntu-14.04 image.
 The .tar.gz archive in this repo is directly converted from the zip file from the [Consul download page](https://www.consul.io/downloads.html) using
 
 ```
-unzip -p 0.5.0_linux_amd64.zip
+unzip 0.5.0_linux_amd64.zip
 tar -zcvf consul.tar.gz consul
 ```
 
